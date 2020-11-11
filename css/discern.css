@@ -143,9 +143,11 @@ li {
   margin-bottom: 0;
   height: 60px;
 }
+
 .clear {
   clear: both;
 }
+
 .discernbg {
   background-color: #f3fcf9;
   padding-bottom: 40px;
@@ -259,11 +261,13 @@ li {
   border-bottom: 2px #142e4b solid;
   margin-bottom: 20px;
 }
+
 .titline_none {
   width: 100%;
   height: 40px;
   margin-bottom: 0px;
 }
+
 .discertit {
   width: 40%;
   margin: 0 auto;
@@ -460,6 +464,7 @@ li {
   font-size: 13px;
   opacity: 0.5;
 }
+
 .discernFB {
   background: #4267b2;
   width: 75%;
@@ -470,9 +475,11 @@ li {
   padding: 5px;
   box-shadow: 0 3px 0 3px #00267b;
 }
+
 .discernFB:hover {
   color: #fff;
 }
+
 .discernlogin {
   background: #49d29b;
   width: 75%;
@@ -483,16 +490,20 @@ li {
   padding: 5px;
   box-shadow: 0 3px 0 3px #026f43;
 }
+
 .discernlogin:hover {
   color: #fff;
 }
+
 .surveybanner {
   margin: 20px 0;
 }
+
 .surveybanner img {
   width: 100%;
   height: 100%;
 }
+
 .survey {
   width: 100%;
   border-radius: 10px;
@@ -506,10 +517,12 @@ li {
   background-color: #fff;
   padding: 15px;
 }
+
 .survey h3 {
   color: #00bdaa;
   margin-bottom: 10px;
 }
+
 .iconstamp {
   width: 170px;
   height: 170px;
@@ -536,6 +549,7 @@ li {
   0% {
     transform: translate(-25px, -25px) scaleX(5) scaleY(5) rotate(0deg);
   }
+
   100% {
     transform: translate(-25px, -25px) scaleX(1) scaleY(1) rotate(30deg);
   }
@@ -545,6 +559,7 @@ li {
   0% {
     transform: translate(-25px, -25px) scaleX(5) scaleY(5) rotate(0deg);
   }
+
   100% {
     transform: translate(-25px, -25px) scaleX(1) scaleY(1) rotate(30deg);
   }
@@ -554,6 +569,7 @@ li {
   0% {
     transform: translate(-25px, -25px) scaleX(5) scaleY(5) rotate(0deg);
   }
+
   100% {
     transform: translate(-25px, -25px) scaleX(1) scaleY(1) rotate(30deg);
   }
@@ -563,6 +579,7 @@ li {
   0% {
     transform: translate(-25px, -25px) scaleX(5) scaleY(5) rotate(0deg);
   }
+
   100% {
     transform: translate(-25px, -25px) scaleX(1) scaleY(1) rotate(30deg);
   }
@@ -577,6 +594,7 @@ li {
     position: relative;
     overflow: hidden;
   }
+
   .discernkvbg .kvbox {
     width: 100%;
     height: 0px;
@@ -585,21 +603,26 @@ li {
     background: url(../images/discernKv_mobile.jpg) no-repeat 50% 0;
     background-size: 110%;
   }
+
   .discertit {
     width: 84%;
   }
+
   .discerstep {
     position: relative;
     margin-top: 20px;
   }
+
   .discersteptit {
     width: 55%;
   }
+
   .stepicon {
     width: 100%;
     height: 0px;
     padding-bottom: 70%;
   }
+
   .steparr {
     width: 20px;
     height: 20px;
@@ -621,12 +644,14 @@ li {
     color: #00bdaa;
     font-size: 24px;
   }
+
   .iconstamp {
     width: 150px;
     height: 150px;
     right: -2%;
     top: 27%;
   }
+
   .iconbone {
     width: 100%;
     height: 0;
@@ -653,6 +678,7 @@ li {
     color: #00bdaa;
     font-size: 40px;
   }
+
   .iconstamp {
     width: 100px;
     height: 100px;
@@ -676,28 +702,34 @@ li {
     color: #00bdaa;
     font-size: 30px;
   }
+
   .discerans .fake h3 {
     color: #00bdaa;
     font-size: 18px;
   }
+
   .iconstamp {
     width: 80px;
     height: 80px;
     right: -2%;
     top: 27%;
   }
+
   .discernFB {
     width: 90%;
   }
+
   .discernlogin {
     width: 90%;
   }
 }
+
 .hero {
   /* 畫布大小 */
   max-width: 1100px;
   margin: 0 auto;
 }
+
 .hero .heroinner {
   /* 等比例 */
   width: 100%;
@@ -706,11 +738,13 @@ li {
   padding-bottom: 44%;
   background-size: cover;
 }
+
 .description {
   background: url(../images/descriptionbg.jpg) repeat-x 50% 0;
   width: 100%;
   overflow: hidden;
 }
+
 .description .tit {
   background: url(../images/descriptiontit.jpg) no-repeat;
   max-width: 496px;
@@ -720,11 +754,13 @@ li {
   background-size: contain;
   margin: 40px auto 20px;
 }
+
 @media screen and (max-width: 600px) {
   .description .tit {
     width: 86%;
     padding-bottom: 10%;
   }
+
   .hero .heroinner {
     width: 100%;
     height: 0;
@@ -733,11 +769,13 @@ li {
     background-size: cover;
   }
 }
+
 .description p {
   text-align: center;
   padding: 10px;
   font-size: 16px;
 }
+
 .description .pic {
   max-width: 540px;
   height: 540px;
@@ -745,6 +783,7 @@ li {
   padding: 20px;
   margin: 100px auto 0;
 }
+
 .description .pic .befor {
   background: url(../images/descriptionpicbefor.jpg) no-repeat;
   width: 68%;
@@ -755,6 +794,7 @@ li {
   top: -14%;
   z-index: 2;
 }
+
 .description .pic .picinner {
   background: url(../images/descriptionpic.jpg) no-repeat;
   max-width: 540px;
@@ -762,6 +802,7 @@ li {
   padding-bottom: 60%;
   background-size: contain;
 }
+
 .description .pic .after {
   background: url(../images/descriptionpicafter.jpg) no-repeat;
   width: 68%;
@@ -780,27 +821,32 @@ li {
     margin: 60px auto 80px;
     padding-bottom: 55%;
   }
+
   .description .pic .befor {
     top: -20%;
   }
+
   .description .pic .after {
     top: 72%;
     left: 30%;
   }
 }
-.partner {
-}
+
+.partner {}
+
 .partner .tit {
   width: 100%;
   max-width: 287px;
   margin: 0 auto 20px;
 }
+
 .partner .tit .ratio {
   background: url(../images/descriptiontit2.jpg) no-repeat 50% 0;
   height: 0;
   padding-bottom: 11.4%;
   background-size: cover;
 }
+
 .partnerbox {
   background: #fff;
   width: 100%;
@@ -809,26 +855,34 @@ li {
   padding: 16px;
   margin-bottom: 20px;
 }
+
 .partnerbox .pic {
   width: 33%;
+  height: 0;
+  padding-bottom: 33%;
+  overflow: hidden;
   float: left;
 }
+
 .partnerbox .word {
   width: 67%;
   float: right;
   padding-left: 10px;
 }
+
 .partnerbox .word p {
-  font-size: 24px;
+  font-size: 20px;
   color: #365c84;
   margin-bottom: 10px;
 }
+
 .partnerbox .pic img {
-  width: auto;
-  height: auto;
+
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
+  display: block;
 }
+
 @media screen and (max-width: 580px) {
   .partner .tit {
     width: 80%;
