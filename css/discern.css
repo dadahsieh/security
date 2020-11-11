@@ -112,6 +112,31 @@ li {
 /*[ Buttons ]
 ///////////////////////////////////////////////////////////
 */
+.lineFBBt {
+  height: 35px;
+  line-height: 35px;
+  background-color: #4267b2;
+  border-radius: 5px;
+  border: 1px solid #4267b2;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 0 8px;
+  font-size: 15px;
+}
+
+.lineLINEBt {
+  height: 35px;
+  line-height: 35px;
+  background-color: #01b901;
+  border-radius: 5px;
+  border: 1px solid #01b901;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 0 8px;
+  font-size: 15px;
+}
 
 .btPrimary {
   height: 40px;
