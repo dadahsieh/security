@@ -9,16 +9,16 @@
     <!--===============================================================================================-->
     <link rel="icon" type="image/png" href="images/icons/favicon.png" />
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/bootstrap.min.css">
     <!--=輪撥效果==============================================================================================-->
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css">
     <!--=彈框效果======================================================================================-->
     <link rel="stylesheet" type="text/css" href="vendor/sweetalert/sweetalert2.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="css/lohasshop.css">
-        <link rel="stylesheet" type="text/css" href="css/headfoot.css">
-    <link rel="stylesheet" type="text/css" href="css/discern.css">
+
+    <link rel="stylesheet" type="text/css" href="css/eventheaderFooter.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/discern.min.css">
     <!--=字型=============================================================================================-->
     <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -28,42 +28,19 @@
 
 <body class="patternbg">
     <!--=表頭==============================================================================================-->
- <header>
-        <div id="AgreePrivacy" class="iknowfix">
-                <div class="iknow">
-                    <div class="iknowleft">
-                        我們改善使用者體驗，尊重用戶的隱私權。了解
-                        <a href="/zh-tw/about/privacy">最新隱私聲明</a>&<a href="/zh-tw/about/privacy">個資法應告知事項</a>
-                    </div>
-                    <button href="#" onclick="$.cookie('AgreePrivacy', 'Y', { expires: 7 });">我知道了</button>
-                </div>
-            </div>
-        <div class="header">
-            <div class="container">
-                <div class="row header__flex">
-                    <a class="logo" href="/zh-tw"></a>
-                  
-                   <!--  <div class="searchbar">
-                        <div class="searchbar__input">
-                            <i class="searchbar__icon"></i>
-                            <input type="text" placeholder="輸入文字" />
-                        </div>
-                    </div> -->
-                    <!--會員下拉選單-->
-                    <div class="header__dropnav">
-                        <ul>
-                            <li><a href="/zh-tw/user/login?ReturnUrl=https%253a%252f%252fwww.bwlohas.com%252fzh-tw%252fstore">登入</a></li>
-                            <li><a href="/zh-tw/user/orders">訂單查詢</a></li>
-                            <!--<li><a href="/zh-tw/user/booking">預約查詢</a></li>-->
-                            <li><a href="/zh-tw/user/favorite">我的收藏</a></li>
-                            <li><a href="/zh-tw/user/profile">會員資料</a></li>
-                            <li><a href="/zh-tw/user/share">分享賺紅利</a></li>
-                            <li><a href="/zh-tw/user/points">紅利點數</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
+    <header class="eventheader">
+        <div class="g-main">
+            <a class="logo" href="/zh-tw" target="_blank">
+                <img src="https://www.bwlohas.com/images/logo.svg" alt="" />
+            </a>
+            <!-- <div class="share">
+                <a href="javascript:void(0);"
+              onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://www.bwlohas.com/zh-tw/double11');return false;"
+              class="lineFBBt">分享至FB</a>
+            <a href="javascript:void(0);"
+              onclick="window.open('https://lineit.line.me/share/ui?url=https://www.bwlohas.com/zh-tw/double11');return false;"
+              class="lineLINEBt">分享至LINE</a>
+            </div> -->
         </div>
     </header>
     <!--=內容==============================================================================================-->
@@ -78,116 +55,73 @@
                             <img src="images/scanmotion.gif" alt="" class="img-responsive">
                         </div>
                         <div class="ans" style="display:none;">
-                        <div class="ture">
-                            <div class="iconstamp"></div>
-                            <h3>您購買的產品經認證</h3>
-                            <h2>原廠正版<br>維骨力</h2>
-                            <p>維骨力關心您～</p>
+                            <div class="ture">
+                                <div class="iconstamp"></div>
+                                <h3>您購買的產品經認證</h3>
+                                <h2>原廠正版<br>維骨力</h2>
+                                <p>維骨力關心您～</p>
+                            </div>
+                            <div class="pic">
+                                <img src="images/viatril_5.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="clear">
+                            </div>
                         </div>
-                        <div class="pic">
-                            <img src="images/viatril_5.png" alt="" class="img-responsive">
-                        </div>
-                        <div class="clear">
-                        </div>
-                    </div></div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-7 col-md-offset-3">
                 <div class="row">
                     <div class="ans" style="display:none;">
-                    <div class="surveybanner"><a href="discern_survey.html"><img src="images/surveybanner2.png"></a>
-                    </div></div>
+                        <div class="surveybanner"><a href="discern_survey.html"><img src="images/surveybanner2.png"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-7 col-md-offset-3">
-                 <div class="row">
-                <div class="ans" style="display:none;">
-                <div class="discertext">
-                    <h2>
-                 維骨力膠囊 660顆裝
-                 <br><span>Viartril<sup>®</sup>-S Capsules 660's</span></h2>
-                    <div class="category">
-                        <ul>
-                            <li>義大利原裝進口！</li>
-                            <li>衛福部核准之治療關節炎用藥！</li>
-                            <li>獨家專利結晶硫酸鹽葡萄糖胺！</li>
-                            <li>三效才有效：關節止痛/抑制退化/幫助復原！</li>
-                        </ul>
-                    </div>
-                    <p>用法用量/膠囊劑型:
-                        <br> 輕微至中等程度：每天2次，每次二顆，飯前15分鐘，以開水吞服，連續服用6週。
-                    </p>
-                    <p>嚴重程度(關節疼痛)：</p>
-                    <p>初期治療：每天3次，每次二顆，飯前15分鐘，以開水吞服，持續治療至少8週。
-                        <br> 繼續治療：維持劑量為每天2次，每次二顆，飯前15分鐘，以開水吞服，繼續治療3~4個月。
-                    </p>
-                    <p class="smallw">
-                        衛署藥輸字第010641號 北市衛藥廣字第107020258號
-                    </p>
-                </div>
-                <div class="col-md-6 col-md-offset-3">
-                    <a class="btGreen" href="https://www.viartril-s.com.tw/" target="_blank">前往維骨力官網</a></div>
-                <div class="clear"></div>
-            </div> </div>
-        </div></div>
-    </section>
-    <!--=表尾==============================================================================================-->
-    <footer>
-        <div class="footer">
-            <div class="container">
                 <div class="row">
-                    <div class="col-sm-2 footernav">服務項目
-                        <ul>
-                            <li><a href="index.html">樂樂大藥房</a></li>
-                            <li><a href="blog.html">健康報報</a></li>
-                            <li><a href="certification.html">雷射認證</a></li>
-                            <li><a href="news.html">最新消息</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2 footernav">關於我們
-                        <ul>
-                            <li><a href="about.html">關於大統</a></li>
-                            <li><a href="sales.html">銷售據點</a></li>
-                            <li><a href="privacy.html">隱私權政策</a></li>
-                            <li><a href="service.html">使用條款</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2 footernav">購物須知
-                        <ul>
-                            <li><a href="delivery.html">運送方式</a></li>
-                            <li><a href="payway.html">付款方式</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2 footernav">聯繫我們
-                        <ul>
-                            <li><a href="contact.html">聯繫我們</a></li>
-                            <li><a href="business.html">業務合作</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 footershare">
-                        <ul>
-                            <li class="fb"><a href="#"></a></li>
-                            <li class="line"><a href="#"></a></li>
-                            <li class="gplus"><a href="#"></a></li>
-                            <li class="wechat"><a href="#"></a></li>
-                            <li class="youtube"><a href="#"></a></li>
-                        </ul>
-                        <p>© 2018 GREAT UNION. All Rights Reserved.</p>
+                    <div class="ans" style="display:none;">
+                        <div class="discertext">
+                            <h2>
+                                維骨力膠囊 660顆裝
+                                <br><span>Viartril<sup>®</sup>-S Capsules 660's</span></h2>
+                            <div class="category">
+                                <ul>
+                                    <li>義大利原裝進口！</li>
+                                    <li>衛福部核准之治療關節炎用藥！</li>
+                                    <li>獨家專利結晶硫酸鹽葡萄糖胺！</li>
+                                    <li>三效才有效：關節止痛/抑制退化/幫助復原！</li>
+                                </ul>
+                            </div>
+                            <p>用法用量/膠囊劑型:
+                                <br> 輕微至中等程度：每天2次，每次二顆，飯前15分鐘，以開水吞服，連續服用6週。
+                            </p>
+                            <p>嚴重程度(關節疼痛)：</p>
+                            <p>初期治療：每天3次，每次二顆，飯前15分鐘，以開水吞服，持續治療至少8週。
+                                <br> 繼續治療：維持劑量為每天2次，每次二顆，飯前15分鐘，以開水吞服，繼續治療3~4個月。
+                            </p>
+                            <p class="smallw">
+                                衛署藥輸字第010641號 北市衛藥廣字第107020258號
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-md-offset-3">
+                            <a class="btGreen" href="https://www.viartril-s.com.tw/" target="_blank">前往維骨力官網</a></div>
+                        <div class="clear"></div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!--=表尾==============================================================================================-->
+    <!--footer-->
+    <footer>
+        <div class="footer">© 2019 BWLOHAS. All Rights Reserved.</div>
     </footer>
-    <!-- Back to top -->
-    <div class="btn-back-to-top bg0-hov" id="myBtn">
-        <span class="symbol-btn-back-to-top">
-            &uarr;
-        </span>
-    </div>
+    <!--footer結束-->
+
     <!--===============================================================================================-->
-    <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
     <!--==輪撥=============================================================================================-->
     <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
     <script type="text/javascript" src="js/slick-custom.js"></script>

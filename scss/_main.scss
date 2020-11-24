@@ -1,3 +1,6 @@
+// *******************
+// 專案內容css
+// *******************
 /*[ RESTYLE TAG ]
 ///////////////////////////////////////////////////////////
 */
@@ -103,40 +106,212 @@ p {
   margin: 0px;
 }
 
+.red {
+  color: #e73c3c;
+}
+
 ul,
 li {
   margin: 0px;
   list-style-type: none;
 }
 
+input {
+  outline: none;
+  border: 1px #ddd solid;
+}
+
+select {
+  outline: none;
+  border: 1px #ddd solid !important;
+}
+
+textarea {
+  outline: none;
+}
+
+
+
+.form-check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+/* Hide the browser's default checkbox */
+
+.form-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+  position: absolute;
+
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background: url(../images/checkbox_no.png)no-repeat;
+  background-size: 24px;
+}
+
+
+
+
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+
+/* Show the checkmark when checked */
+
+.form-check input:checked~.checkmark:after {
+  display: block;
+}
+
+
+
+/* Style the checkmark/indicator */
+
+.form-check .checkmark:after {
+  left: 0px;
+  top: 0px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/checkbox.png)no-repeat;
+  background-size: 24px;
+}
+
+
+
+/* Create a custom radio button */
+
+.radiomark {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+
+/* On mouse-over, add a grey background color */
+
+.radio label {
+  font-weight: 400;
+  padding-left: 40px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.form-check:hover input~.radiomark {
+  background-color: #ccc;
+}
+
+
+
+/* When the radio button is checked, add a blue background */
+
+.form-check input:checked~.radiomark {
+  background-color: #35af98;
+}
+
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.radiomark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.form-check input:checked~.radiomark:after {
+  display: block;
+}
+
+
+
+/* Style the indicator (dot/circle) */
+
+.form-check .radiomark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.radio span {
+  display: block;
+  padding: 3px 0;
+}
+
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
 /*[ Buttons ]
 ///////////////////////////////////////////////////////////
 */
-.lineFBBt {
-  height: 35px;
-  line-height: 35px;
-  background-color: #4267b2;
-  border-radius: 5px;
-  border: 1px solid #4267b2;
-  color: #ffffff;
-  text-align: center;
-  display: block;
-  padding: 0 8px;
-  font-size: 15px;
-}
-
-.lineLINEBt {
-  height: 35px;
-  line-height: 35px;
-  background-color: #01b901;
-  border-radius: 5px;
-  border: 1px solid #01b901;
-  color: #ffffff;
-  text-align: center;
-  display: block;
-  padding: 0 8px;
-  font-size: 15px;
-}
 
 .btPrimary {
   height: 40px;
@@ -159,6 +334,43 @@ li {
 .btPrimary:focus {
   background: #01a5a0;
   color: #fff;
+}
+
+.btGreen {
+  height: 40px;
+  width: 100%;
+  background: #00BFA8;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  display: block;
+}
+
+.btGreen:hover {
+  background: #01A5A0;
+  color: #fff;
+}
+
+.btGreen:focus {
+  background: #01A5A0;
+  color: #fff;
+}
+
+/*[ 表單式樣開始 ]
+///////////////////////////////////////////////////////////
+*/
+
+.form-control {
+  height: 50px;
+  border: 1px soild #e5e5e5;
+}
+
+.form-field .icon-down {
+  background: url(../images/arr.png)no-repeat right 0.75em center;
+  background-color: #fff;
+  background-size: 20px;
 }
 
 /*[ 雷射認證 ]
@@ -213,7 +425,7 @@ li {
   height: 500px;
   margin: 0 auto;
   padding-bottom: 0;
-
+  background: url(../images/discernKv_mobile.jpg) no-repeat 50% 0;
   background-size: 110%;
 }
 
