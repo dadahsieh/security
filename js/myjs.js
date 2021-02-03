@@ -13,6 +13,7 @@ $(document).ready(function() {
         slidesToShow: 1,
         adaptiveHeight: true
       });
+      AOS.init();
 });
 
 
