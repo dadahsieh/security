@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>處方箋快速申請</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/bootstrap.min.css">
+    <!--=輪撥效果==============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css">
+    <!--=彈框效果======================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/sweetalert/sweetalert2.css">
+    <!--===============================================================================================-->
+
+    <link rel="stylesheet" type="text/css" href="css/eventheaderFooter.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/discern.min.css">
+    <!--=字型=============================================================================================-->
+    <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="patternbg">
+    <!--=表頭==============================================================================================-->
+    <header class="eventheader">
+        <div class="g-main">
+            <a class="logo" href="/zh-tw" target="_blank">
+                <img src="https://www.bwlohas.com/images/logo.svg" alt="" />
+            </a>
+            <!-- <div class="share">
+                <a href="javascript:void(0);"
+              onclick="window.open('http://www.facebook.com/sharer/sharer.php?u=https://www.bwlohas.com/zh-tw/double11');return false;"
+              class="lineFBBt">分享至FB</a>
+            <a href="javascript:void(0);"
+              onclick="window.open('https://lineit.line.me/share/ui?url=https://www.bwlohas.com/zh-tw/double11');return false;"
+              class="lineLINEBt">分享至LINE</a>
+            </div> -->
+        </div>
+    </header>
+    <!--=內容==============================================================================================-->
+    <section class="discernbg">
+        <div class="discernansbg2">
+        </div>
+        <div class="container">
+            <div class="col-md-7 col-md-offset-3">
+                <div class="row">
+                    <div class="survey">
+                        <h3>處方箋快速申請test</h3>
+                        <!-- <p>完成問卷回函填寫，我們將贈送您$100元折價券。每位會員限領取乙次。請至<a href="">我的折價券</a>查詢</p> -->
+
+                        <p class="red">*必填</p>
+                        <br>
+                        <div class="form-group row">
+
+
+                            <label for="ues_name">用藥人姓名：<span class="red">*</span></label>
+
+                            <div class="col-xs-6">
+                                <input type="text" id="ues_name" class="form-control" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="ues_date">用藥人生日：<span class="red">*</span></label>
+                            <!-- <input type="text" id="ues_date" class="form-control" placeholder="年/月/日"
+                                style="width: 300px;"> -->
+                            <div class="col-xs-4">
+                                <select class="form-control icon-down">
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                    <option value="" selected="true">年</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4">
+                                <select class="form-control icon-down">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="" selected="true">月</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4">
+                                <select class="form-control">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="" selected="true">日</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="ues_id">用藥人身分證字號：<span class="red">*</span></label>
+                            <div class="col-xs-6">
+
+                                <input type="text" id="ues_id" class="form-control" placeholder=""
+                                    style="width: 300px;">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="ues_phone">聯絡電話：<span class="red">*</span></label>
+                            <div class="col-xs-6">
+
+                                <input type="text" id="ues_phone" class="form-control" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="">預約門市：<span class="red">*</span></label>
+                            <div class="col-xs-6">
+                                <select class="form-control icon-down">
+                                    <option value="">北區</option>
+                                    <option value="">中區</option>
+                                    <option value="">南區</option>
+                                    <option value="" selected="true">地區</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-6">
+                                <select class="form-control icon-down">
+                                    <option value="">大方藥局</option>
+                                    <option value="">藍鯨藥局</option>
+                                    <option value="" selected="true">門市名稱</option>
+                                </select>
+                            </div>
+
+
+
+                        </div>
+                        <div class="form-group row">
+                            <label for="booking_date">預約日期：<span class="red">*</span></label>
+                            <div class="col-xs-4">
+                                <select class="form-control icon-down">
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                    <option value="" selected="true">年</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4">
+                                <select class="form-control icon-down">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="" selected="true">月</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4">
+                                <select class="form-control">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="" selected="true">日</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group row">
+                            <label class="control-label">上傳圖片：<span class="red">*</span></label>
+                            <input type="file" id="exampleInputFile">
+                            <p class="help-block">請選擇要上傳的處方箋照片 </p>
+
+                            <div class="col-md-12">
+                                <img src="/images/test_pic.jpg" class="img-thumbnail rounded " alt="">
+                            </div>
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                        <!-- <div class=" form-group">
+                            <label class="control-label">建議事項，您的寶貴意見是我們成長的動力：
+                            </label>
+                            <textarea id="" class="form-control" style="height: 300px;"></textarea>
+                        </div> -->
+
+                        <div class="">
+                            <img src="" alt="">
+
+                        </div>
+
+
+
+                        <br>
+                        <div class="col-md-6 col-md-offset-3">
+                            <a class="btGreen" href="discern_surveyEnd.html">確認送出</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=表尾==============================================================================================-->
+    <!--footer-->
+    <footer>
+        <div class="footer">© 2019 BWLOHAS. All Rights Reserved.</div>
+    </footer>
+    <!--footer結束-->
+
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+    <!--==輪撥=============================================================================================-->
+    <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick-custom.js"></script>
+    <!--=彈框===========================================================================================-->
+    <script type="text/javascript" src="vendor/sweetalert/promise.min.js"></script>
+    <script type="text/javascript" src="vendor/sweetalert/sweetalert2.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/myjs.js"></script>
+</body>
+
+</html>
