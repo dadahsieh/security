@@ -50,26 +50,22 @@
         <div class="container">
             <div class="col-md-7 col-md-offset-3">
                 <div class="row">
-                    <div class="survey">
+                    <div class="survey ">
                         <h3>處方箋快速申請test</h3>
                         <!-- <p>完成問卷回函填寫，我們將贈送您$100元折價券。每位會員限領取乙次。請至<a href="">我的折價券</a>查詢</p> -->
 
                         <p class="red">*必填</p>
                         <br>
                         <div class="form-group row">
-
-
-                            <label for="ues_name">用藥人姓名：<span class="red">*</span></label>
-
                             <div class="col-xs-6">
+                                <label for="ues_name">用藥人姓名：<span class="red">*</span></label>
                                 <input type="text" id="ues_name" class="form-control" placeholder="">
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <div class="form-group ">
+
                             <label for="ues_date">用藥人生日：<span class="red">*</span></label>
-                            <!-- <input type="text" id="ues_date" class="form-control" placeholder="年/月/日"
-                                style="width: 300px;"> -->
                             <div class="col-xs-4">
                                 <select class="form-control icon-down">
                                     <option value="2023">2023</option>
@@ -114,33 +110,40 @@
 
                         </div>
 
-                        <div class="form-group row">
-                            <label for="ues_id">用藥人身分證字號：<span class="red">*</span></label>
-                            <div class="col-xs-6">
 
-                                <input type="text" id="ues_id" class="form-control" placeholder=""
-                                    style="width: 300px;">
+                        <div class="form-group row">
+                            <div class="col-xs-6">
+                                <label for="ues_id">用藥人身分證字號：<span class="red">*</span></label>
+                                <input type="text" id="ues_id" class="form-control" placeholder="">
                             </div>
                         </div>
-                        <div class="form-group row">
-                            <label for="ues_phone">聯絡電話：<span class="red">*</span></label>
-                            <div class="col-xs-6">
 
+                        <div class="form-group row">
+                            <div class="col-xs-6">
+                                <label for="ues_phone">聯絡電話：<span class="red">*</span></label>
                                 <input type="text" id="ues_phone" class="form-control" placeholder="">
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <div class="form-group">
                             <label for="">預約門市：<span class="red">*</span></label>
-                            <div class="col-xs-6">
+                            <div class="col-xs-4">
                                 <select class="form-control icon-down">
-                                    <option value="">北區</option>
-                                    <option value="">中區</option>
-                                    <option value="">南區</option>
-                                    <option value="" selected="true">地區</option>
+                                    <option value="">台北市</option>
+                                    <option value="">新北市</option>
+                                    <option value="">桃園市</option>
+                                    <option value="" selected="true">縣市</option>
                                 </select>
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-xs-4">
+                                <select class="form-control icon-down">
+                                    <option value="">北投區</option>
+                                    <option value="">士林區</option>
+                                    <option value="">內湖區</option>
+                                    <option value="" selected="true">行政區</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4">
                                 <select class="form-control icon-down">
                                     <option value="">大方藥局</option>
                                     <option value="">藍鯨藥局</option>
@@ -151,7 +154,7 @@
 
 
                         </div>
-                        <div class="form-group row">
+                        <div class="form-group ">
                             <label for="booking_date">預約日期：<span class="red">*</span></label>
                             <div class="col-xs-4">
                                 <select class="form-control icon-down">
@@ -199,20 +202,16 @@
 
 
                         <div class="form-group row">
-                            <label class="control-label">上傳圖片：<span class="red">*</span></label>
-                            <input type="file" id="exampleInputFile">
-                            <p class="help-block">請選擇要上傳的處方箋照片 </p>
+                            <div class="col-md-6">
+
+                                <label class="control-label">上傳圖片：<span class="red">*</span></label>
+                                <input type="file" id="exampleInputFile">
+                                <p class="help-block">請選擇要上傳的處方箋照片 </p>
+                            </div>
 
                             <div class="col-md-12">
                                 <img src="/images/test_pic.jpg" class="img-thumbnail rounded " alt="">
                             </div>
-
-
-
-
-
-
-
                         </div>
 
 
